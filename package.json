@@ -1,0 +1,36 @@
+{
+  "name": "promise-to-stream-either",
+  "version": "1.0.0",
+  "description": "Convert a Promise to a flyd Stream of Either value",
+  "main": "index.js",
+  "dependencies": {
+    "sanctuary": "^0.11.1"
+  },
+  "peerDependencies": {
+    "flyd": ">=0.2.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.5",
+    "flyd": "^0.2.2",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangchiqing/promiseToStreamEither.git"
+  },
+  "keywords": [
+    "flyd",
+    "FRP",
+    "either",
+    "promise"
+  ],
+  "author": "Leo Zhang (zhangchiqing@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangchiqing/promiseToStreamEither/issues"
+  },
+  "homepage": "https://github.com/zhangchiqing/promiseToStreamEither#readme"
+}
